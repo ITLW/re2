@@ -9,7 +9,7 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-
+@property(nonatomic,strong)NSString *git;
 @end
 
 @implementation ViewController
@@ -18,6 +18,8 @@
     [super viewDidLoad];
     
     NSLog(@"init");
+    
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 
