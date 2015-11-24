@@ -19,12 +19,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    NSLog(@"init");
-    
+    //NSLog(@"init");
+    [self say];
     
     // Do any additional setup after loading the view, typically from a nib.
 }
+-(void)say{
 
+    NSLog(@"添加分支");
+
+
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
