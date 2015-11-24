@@ -7,9 +7,11 @@
 //
 
 #import "ViewController.h"
-
+#import "TestClass.h"
 @interface ViewController ()
 @property(nonatomic,strong)NSString *git;
+
+@property(nonatomic,strong)TestClass *textClass;
 @end
 
 @implementation ViewController
