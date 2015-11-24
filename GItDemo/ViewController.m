@@ -21,14 +21,20 @@
     
     //NSLog(@"init");
     [self say];
+   // NSLog(@"init");
+    [self seconBranch];
     
     // Do any additional setup after loading the view, typically from a nib.
+}
+-(void)seconBranch{
+    NSLog(@"第二个分支");
 }
 -(void)say{
 
     NSLog(@"添加分支");
 
 
+  
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
