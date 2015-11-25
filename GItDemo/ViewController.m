@@ -18,12 +18,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    //////////
     //NSLog(@"init");
     [self say];
    // NSLog(@"init");
     [self seconBranch];
-    
+   
     // Do any additional setup after loading the view, typically from a nib.
 }
 -(void)seconBranch{
