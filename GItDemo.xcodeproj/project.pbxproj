@@ -15,6 +15,7 @@
 		C9C9F1301C043A7A006485F3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9C9F12E1C043A7A006485F3 /* LaunchScreen.xib */; };
 		C9C9F13C1C043A7A006485F3 /* GItDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C9F13B1C043A7A006485F3 /* GItDemoTests.m */; };
 		C9C9F1471C044197006485F3 /* TestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C9F1461C044197006485F3 /* TestClass.m */; };
+		C9DFF3771C0564AC00C28191 /* TestGit.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DFF3761C0564AC00C28191 /* TestGit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		C9C9F13B1C043A7A006485F3 /* GItDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GItDemoTests.m; sourceTree = "<group>"; };
 		C9C9F1451C044197006485F3 /* TestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestClass.h; sourceTree = "<group>"; };
 		C9C9F1461C044197006485F3 /* TestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestClass.m; sourceTree = "<group>"; };
+		C9DFF3751C0564AC00C28191 /* TestGit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestGit.h; sourceTree = "<group>"; };
+		C9DFF3761C0564AC00C28191 /* TestGit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestGit.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +69,8 @@
 		C9C9F1131C043A7A006485F3 = {
 			isa = PBXGroup;
 			children = (
+				C9DFF3751C0564AC00C28191 /* TestGit.h */,
+				C9DFF3761C0564AC00C28191 /* TestGit.m */,
 				C9C9F1451C044197006485F3 /* TestClass.h */,
 				C9C9F1461C044197006485F3 /* TestClass.m */,
 				C9C9F11E1C043A7A006485F3 /* GItDemo */,
@@ -228,6 +233,7 @@
 				C9C9F1281C043A7A006485F3 /* ViewController.m in Sources */,
 				C9C9F1251C043A7A006485F3 /* AppDelegate.m in Sources */,
 				C9C9F1221C043A7A006485F3 /* main.m in Sources */,
+				C9DFF3771C0564AC00C28191 /* TestGit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +428,7 @@
 				C9C9F1411C043A7A006485F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C9C9F1421C043A7A006485F3 /* Build configuration list for PBXNativeTarget "GItDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +437,7 @@
 				C9C9F1441C043A7A006485F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
