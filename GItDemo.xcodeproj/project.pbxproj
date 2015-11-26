@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C9789DCD1C06DDC600FF2586 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9789DCC1C06DDC600FF2586 /* MessageUI.framework */; };
 		C9C9F1221C043A7A006485F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C9F1211C043A7A006485F3 /* main.m */; };
 		C9C9F1251C043A7A006485F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C9F1241C043A7A006485F3 /* AppDelegate.m */; };
 		C9C9F1281C043A7A006485F3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C9F1271C043A7A006485F3 /* ViewController.m */; };
@@ -29,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C9789DCC1C06DDC600FF2586 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		C9C9F11C1C043A7A006485F3 /* GItDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GItDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9C9F1201C043A7A006485F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9C9F1211C043A7A006485F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9789DCD1C06DDC600FF2586 /* MessageUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +72,7 @@
 		C9C9F1131C043A7A006485F3 = {
 			isa = PBXGroup;
 			children = (
+				C9789DCC1C06DDC600FF2586 /* MessageUI.framework */,
 				C9DFF3751C0564AC00C28191 /* TestGit.h */,
 				C9DFF3761C0564AC00C28191 /* TestGit.m */,
 				C9C9F1451C044197006485F3 /* TestClass.h */,
